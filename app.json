@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Olimat",
+    "icon": "./assets/icon-let.png",
+    "version": "1.0.2",
+    "orientation": "portrait",
+    "slug": "Olimat23_1",
+    "ios": {
+      "bundleIdentifier": "OlimatUesc",
+      "buildNumber": "1.0.2"
+    },
+    "plugins": [
+      [
+        "expo-barcode-scanner",
+        {
+          "cameraPermission": "Allow $(PRODUCT_NAME) to access camera."
+        }
+      ]
+    ],
+    "android": {
+      "package": "com.lenicfu.Olimat23_1",
+      "versionCode": 3
+    },
+    "extra": {
+      "eas": {
+        "projectId": "32b66386-1dec-4c5b-ba51-c18ff0ad2e66"
+      }
+    }
+  }
+}
