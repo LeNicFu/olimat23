@@ -6,13 +6,13 @@ import * as SQLite from 'expo-sqlite'
 export const db = SQLite.openDatabase('mydatabase.db')
 
 export default function Insere(codigo, nome) {
-  // O código abaixo cria uma tabela chamada alunos com as colunas id, nome e email.
+  // O código abaixo cria uma tabela chamada alunos com as colunas id, código e nome.
     db.transaction((tx) => {
         tx.executeSql(
         'CREATE TABLE IF NOT EXISTS alunos (id INTEGER PRIMARY KEY AUTOINCREMENT, codigo TEXT, nome TEXT);'
         );
     });
-    // O código abaixo insere um novo usuário na tabela alunos com o nome John Doe e o email johndoe@example.com.
+    // O código abaixo insere um novo usuário na tabela alunos com código e nome que forem informados.
     db.transaction((tx) => {
       tx.executeSql(
         'INSERT INTO alunos (codigo, nome) values (?, ?)',
