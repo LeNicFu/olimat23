@@ -16,7 +16,7 @@ const Stack = createNativeStackNavigator();
 function MyStack() {
   return (
     <Stack.Navigator>
-      <Stack.Screen name="OLIMAT 2023" component={Tela1} />
+      <Stack.Screen name="OLIMAT 2024" component={Tela1} />
       <Stack.Screen name="Nome do Aluno" component={Tela2} />
       <Stack.Screen name="Scanner" component={TelaScanner} />
       <Stack.Screen name="Lista" component={TelaLista} />

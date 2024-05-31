@@ -35,7 +35,7 @@ export default function OpcoesEdicao({navigation}) {
         </View>
         <View style={estilos.containerBotao}>
             <TouchableOpacity style={estilos.botao}
-                onPress={() => navigation.navigate('OLIMAT 2023')}
+                onPress={() => navigation.navigate('OLIMAT 2024')}
             >
                 <Text style={estilos.textoBotao}>
                 Início
@@ -46,7 +46,7 @@ export default function OpcoesEdicao({navigation}) {
         </View>        
         <View style={estilos.containerBotaoExcluir}>
             <TouchableOpacity style={estilos.botao}
-                onPress={() => (excluirNome(id) && navigation.navigate('OLIMAT 2023'))}
+                onPress={() => (excluirNome(id) && navigation.navigate('OLIMAT 2024'))}
             >
                 <Text style={estilos.textoBotao}>
                 Excluir da lista

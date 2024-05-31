@@ -29,7 +29,7 @@ export default function TelaEditaNome({ navigation }) {
           />
           <View style={estilos.containerBotao}>
             <TouchableOpacity style={estilos.botao}
-              onPress={() => (confirma() && navigation.navigate('OLIMAT 2023'))}
+              onPress={() => (confirma() && navigation.navigate('OLIMAT 2024'))}
             >
               <Text style={estilos.textoBotao}>
                 Confirmar

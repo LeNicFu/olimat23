@@ -27,7 +27,7 @@ export default function Tela2({ navigation }) {
         />
         <View style={estilos.containerBotao}>
           <TouchableOpacity style={estilos.botao}
-            onPress={() => (ColetaDados() && navigation.navigate('OLIMAT 2023'))}
+            onPress={() => (ColetaDados() && navigation.navigate('OLIMAT 2024'))}
           >
             <Text style={estilos.textoBotao}>
               Confirmar

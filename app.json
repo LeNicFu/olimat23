@@ -2,12 +2,12 @@
   "expo": {
     "name": "Olimat",
     "icon": "./assets/icon-let.png",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "orientation": "portrait",
     "slug": "Olimat23_1",
     "ios": {
       "bundleIdentifier": "OlimatUesc",
-      "buildNumber": "1.0.2"
+      "buildNumber": "1.0.3"
     },
     "plugins": [
       [

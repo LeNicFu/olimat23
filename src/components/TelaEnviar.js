@@ -45,7 +45,7 @@ export default function () {
   };
 
   function Enviar() {
-    if (escola.length > 0 && senhaEnviar == '23olimat23') {
+    if (escola.length > 0 && senhaEnviar == '24olimat24') {
       enviarEmail()
     } else {
       alert('A senha está incorreta ou o campo para o nome da escola está em branco')
