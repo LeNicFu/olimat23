@@ -19,7 +19,7 @@
     ],
     "android": {
       "package": "com.lenicfu.Olimat23_1",
-      "versionCode": 4
+      "versionCode": 5
     },
     "extra": {
       "eas": {
